@@ -1,0 +1,7 @@
+{
+    "name": "ryannutt/api-cache",
+    "description": "A very simple GET request file cache for PHP",
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
