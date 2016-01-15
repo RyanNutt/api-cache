@@ -83,7 +83,7 @@ class Cache {
      */
     private static function get_cache( $url, $name = '' ) {
         $filename = self::get_cache_dir() . self::$cache_prefix . self::create_filename( $url . $name ) . self::$cache_extension;
-        echo $filename . "\n";
+        
         if ( file_exists( $filename ) && (filemtime( $filename ) + self::$cache_age >= time()) ) {
             return file_get_contents( $filename );
         }
