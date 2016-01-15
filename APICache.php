@@ -1,8 +1,8 @@
 <?php
 
-namespace ryannutt\apicache;
+namespace apicache;
 
-class APICache {
+class Cache {
 
     /**
      * Path to where the cache files will be stored. If false, this will
